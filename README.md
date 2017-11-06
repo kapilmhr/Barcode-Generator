@@ -1,6 +1,6 @@
 # Barcode-Generator
-## H2 1.Add Dependency
-	```java
+1.Add Dependency
+```java
 	allprojects {
 			repositories {
 				...
@@ -12,14 +12,14 @@
 			compile 'com.github.kapilmhr:Barcode-Generator:1.0'
 		}
 
-## H2 2. Add to your design Layout
+2. Add to your design Layout
 	```xml
     <ImageView
         android:id="@+id/barcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-## H2 3. Add to your code
+3. Add to your code
 	```java
 	 ImageView imageView;
 	    String barcode = "7761010114033430";
@@ -31,7 +31,7 @@
         Bitmap bitmap = code.getBitmap(680, 300);
         imageView.setImageBitmap(bitmap);
 
-## H2 4. Customization
+4. Customization
 Change Background color
   a. Hexcolor
   	```java
