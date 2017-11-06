@@ -1,5 +1,6 @@
 # Barcode-Generator
 1.Add Dependency
+
 	```java
 	allprojects {
 			repositories {
@@ -49,3 +50,4 @@ Change Background color
         Bitmap bitmap = code.getBitmap(680, 300,66, 134, 244);
         imageView.setImageBitmap(bitmap);
     }
+
