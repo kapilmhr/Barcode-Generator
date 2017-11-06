@@ -1,6 +1,6 @@
 # Barcode-Generator
 1.Add Dependency
-	```java
+```java
 	allprojects {
 			repositories {
 				...
@@ -41,7 +41,7 @@ Change Background color
     }
 
   b. RGB color
-  	``java
+  	```java
        private void drawBarcodeRGBBackgroundColor() {
         Bitmap bitmap = code.getBitmap(680, 300,66, 134, 244);
         imageView.setImageBitmap(bitmap);
