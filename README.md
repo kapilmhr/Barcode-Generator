@@ -34,6 +34,8 @@
 4. Customization
 Change Background color
   a. Hexcolor
+  
+  
   	```java
       private void drawBarcodeHexBackgroundColor() {
         Bitmap bitmap = code.getBitmap(680, 300,"#4286f4");
@@ -41,6 +43,7 @@ Change Background color
     }
 
   b. RGB color
+  
   	```java
        private void drawBarcodeRGBBackgroundColor() {
         Bitmap bitmap = code.getBitmap(680, 300,66, 134, 244);
