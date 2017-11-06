@@ -1,6 +1,6 @@
 # Barcode-Generator
 1.Add Dependency
-```java
+	```java
 	allprojects {
 			repositories {
 				...
